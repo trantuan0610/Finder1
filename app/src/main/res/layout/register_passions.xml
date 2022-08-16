@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPassions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="226dp"
+        android:text="Passions"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClimbing"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Climbing"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPassions" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDog"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Dog lover"
+        app:layout_constraintStart_toEndOf="@+id/btnClimbing"
+        app:layout_constraintTop_toTopOf="@+id/btnClimbing"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEveryone"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Everyone"
+        app:layout_constraintStart_toEndOf="@+id/btnDog"
+        app:layout_constraintTop_toTopOf="@+id/btnClimbing"
+        android:layout_marginLeft="10dp"
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnYoga"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Yoga"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFashion"
+        android:layout_marginLeft="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWalking"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Walking"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClimbing"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTrivia"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Trivia"
+        app:layout_constraintStart_toEndOf="@+id/btnWalking"
+        app:layout_constraintTop_toTopOf="@+id/btnWalking"
+        android:layout_marginLeft="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSprituality"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Sprituality"
+        app:layout_constraintStart_toEndOf="@+id/btnTrivia"
+        app:layout_constraintTop_toTopOf="@+id/btnWalking"
+        android:layout_marginLeft="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBroadGames"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Broad Games"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWalking"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBlogging"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Blogging"
+        app:layout_constraintStart_toEndOf="@+id/btnVolunteering"
+        app:layout_constraintTop_toTopOf="@+id/btnVolunteering"
+        android:layout_marginLeft="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolunteering"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Volunteering"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBroadGames"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWine"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Wine"
+        app:layout_constraintStart_toEndOf="@+id/btnBroadGames"
+        app:layout_constraintTop_toTopOf="@+id/btnBroadGames"
+        android:layout_marginLeft="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGames"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Games"
+        app:layout_constraintStart_toEndOf="@+id/btnWine"
+        app:layout_constraintTop_toTopOf="@+id/btnBroadGames"
+        android:layout_marginLeft="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBaking"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Baking"
+        app:layout_constraintStart_toEndOf="@+id/btnFashion"
+        app:layout_constraintTop_toTopOf="@+id/btnFashion"
+        android:layout_marginLeft="3dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnHiking"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Hiking"
+        app:layout_constraintStart_toEndOf="@+id/btnComedy"
+        app:layout_constraintTop_toTopOf="@+id/btnComedy"
+        android:layout_marginLeft="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMovies"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Movies"
+        app:layout_constraintStart_toEndOf="@+id/btnBlogging"
+        app:layout_constraintTop_toTopOf="@+id/btnBlogging"
+        android:layout_marginLeft="5dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSport"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Sport"
+        app:layout_constraintStart_toEndOf="@+id/btnBaking"
+        app:layout_constraintTop_toTopOf="@+id/btnBaking"
+        android:layout_marginLeft="5dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFashion"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/botron_btn"
+        android:text="Fashion"
+        app:layout_constraintTop_toBottomOf="@+id/btnGrab"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnComedy"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Comedy"
+        app:layout_constraintStart_toEndOf="@+id/btnGrab"
+        app:layout_constraintTop_toTopOf="@+id/btnGrab"
+        android:layout_marginLeft="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGrab"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@drawable/botron_btn"
+        android:text="Grab a Drink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVolunteering"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonctn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="304dp"
+        android:backgroundTint="#536E9E"
+        android:text="COUNTINUE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnComedy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "597719705528",
+    "project_id": "finder-1659b",
+    "storage_bucket": "finder-1659b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597719705528:android:fe662e153fb6ace6eed14d",
+        "android_client_info": {
+          "package_name": "com.tuantran.finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597719705528-3dafm8o7k3i8asbph09verq8a4bmns62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrDcWlvZsIspkHQiDm4ohG_Tbc_14YBZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597719705528-3dafm8o7k3i8asbph09verq8a4bmns62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
